@@ -1,0 +1,17 @@
+{
+  "name": "node-ldap-example",
+  "version": "1.0.0",
+  "description": "Node.js LDAP example",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": ["ldap", "node"],
+  "author": "Guillermo Quinteros",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "passport": "^0.4.1",
+    "passport-ldapauth": "^2.1.4"
+  }
+}
